@@ -75,7 +75,7 @@ Because we set "num_ctxt_in_data = 3", but we have only 2 ctxt ads, we then padd
 
 ## Sample Data
 In the "data" folder.\
-Sampled data of 4 days are provided (only for demonstration purpose; the whole dataset is huge). Because the amount of data is small, the test results may not be statistically reliable.
+Sampled Avito data of 4 days are provided (only for demonstration purpose; the whole dataset is huge). Because the amount of data is small, the test results may not be statistically reliable.
 
 ## Source Code
 * config_dstn.py -- config file
