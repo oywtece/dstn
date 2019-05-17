@@ -82,6 +82,7 @@ Because the amount of data is small, the test results may not be statistically r
 ## Source Code
 * config_dstn.py -- config file
 * ctr_funcs.py -- functions
+* dnn.py -- DNN model
 * dstn_pooling.py -- DSTN - pooling model
 * dstn_self_att.py -- DSTN - self-attention model
 * dstn_int_att.py -- DSTN - interactive attention model
