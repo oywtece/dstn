@@ -14,7 +14,7 @@ max_num_aux_inst_used = [3, 3, 3] # nums of insts of each type of aux ads actual
 n_ft = 42301586 # num of unique fts
 num_csv_col = 561 # num of cols in the csv file
 
-pre = '/data/'
+pre = './data/'
 train_file_name = [pre+'day_1.csv', pre+'day_2.csv'] # can contain multiple file names
 val_file_name = [pre+'day_3.csv'] # should contain only 1 file name
 test_file_name = [pre+'day_4.csv'] # should contain only 1 file name
