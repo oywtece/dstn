@@ -187,14 +187,14 @@ with tf.Session(config=config) as sess:
             train_label_inst = np.transpose([train_label_inst])            
             
             sess.run(optimizer, feed_dict={x_input:train_ft_inst, \
-                                           y_target:train_label_inst, keep_prob:0.5})
+                                           y_target:train_label_inst, keep_prob:1.0})
     
             # record loss and accuracy every step_size generations
             if (epoch+1)%record_step_size == 0:
                 epoch_list.append(epoch)
                 train_loss_temp = sess.run(loss, feed_dict={ \
                                            x_input:train_ft_inst, \
-                                           y_target:train_label_inst, keep_prob:1})
+                                           y_target:train_label_inst, keep_prob:1.0})
                 train_loss_list.append(train_loss_temp)
                  
                 val_pred_score_all = []
@@ -208,7 +208,7 @@ with tf.Session(config=config) as sess:
                     cur_val_label = val_label_inst[start_idx: end_idx]
                     # pred score
                     cur_val_pred_score = sess.run(pred_score, feed_dict={ \
-                                            x_input:cur_val_ft, keep_prob:1})
+                                            x_input:cur_val_ft, keep_prob:1.0})
                     val_pred_score_all.append(cur_val_pred_score.flatten())
                     val_label_all.append(cur_val_label)   
                     
