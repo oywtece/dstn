@@ -320,7 +320,7 @@ with tf.Session(config=config) as sess:
             train_label_inst = np.transpose([train_label_inst])            
             
             sess.run(optimizer, feed_dict={x_input:train_ft_inst, \
-                                           y_target:train_label_inst, keep_prob:0.5})
+                                           y_target:train_label_inst, keep_prob:1.0})
     
             # record loss and accuracy every step_size generations
             if (epoch+1)%record_step_size == 0:
