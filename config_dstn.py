@@ -24,6 +24,7 @@ output_file_name = '0508_1541' # part of file and folder names for recording the
 k = 10 # embedding dim for each ft
 eta = 0.01 # learning rate
 batch_size = 128 # mini batch size
+kp_prob = 1.0 # keep prob in dropout; set to 1.0 if n_epoch = 1
 opt_alg = 'Adagrad' # 'Adagrad' or 'Adam'
 att_hidden_dim = 128 # att hidden layer dim
 max_num_lower_ct = 100 # early stop if the metric does not improve over the validation set after max_num_lower_ct times 
