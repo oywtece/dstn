@@ -7,9 +7,9 @@ The auxiliary ads are from two viewpoints: one is from the spatial domain, where
 If you use this code, please cite the following paper:
 * **Wentao Ouyang, Xiuwu Zhang, Li Li, Heng Zou, Xin Xing, Zhaojie Liu, Yanlong Du. 2019. Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction. In KDD. ACM.**
 
-ACM Digital Library: https://dl.acm.org/citation.cfm?doid=3292500.3330655
-
 arXiv: https://arxiv.org/abs/1906.03776
+
+ACM Digital Library: https://dl.acm.org/citation.cfm?doid=3292500.3330655
 
 #### TensorFlow (TF) version
 1.3.0
