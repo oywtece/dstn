@@ -5,7 +5,11 @@ DSTN is a model for click-through rate (CTR) prediction. DSTN investigates vario
 The auxiliary ads are from two viewpoints: one is from the spatial domain, where DSTN considers the contextual ads shown above the target ad on the same page; the other is from the temporal domain, where DSTN considers historically clicked and unclicked ads of the user. The intuitions are that ads shown together may influence each other, clicked ads reflect a user’s possible preferences, and unclicked ads may indicate what a user dislikes to certain extent.
 
 If you use this code, please cite the following paper:
-* **Wentao Ouyang, Xiuwu Zhang, Li Li, Heng Zou, Xin Xing, Zhaojie Liu, Yanlong Du. 2019. Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction. In KDD. ACM, xx-xx.**
+* **Wentao Ouyang, Xiuwu Zhang, Li Li, Heng Zou, Xin Xing, Zhaojie Liu, Yanlong Du. 2019. Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction. In KDD. ACM.**
+
+ACM Digital Library: https://dl.acm.org/citation.cfm?doid=3292500.3330655
+
+arXiv: https://arxiv.org/abs/1906.03776
 
 #### TensorFlow (TF) version
 1.3.0
