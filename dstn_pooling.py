@@ -215,7 +215,7 @@ in_dim = data_embed_shape[1]
 for i in range(0, n_layer):
     out_dim = layer_dim[i]
     weight = tf.Variable(tf.random_normal(shape=[in_dim, out_dim], stddev=np.sqrt(2.0/(in_dim+out_dim))))
-    bias = tf.Variable(tf.constant(0.1, shape=[out_dim]))
+    bias = tf.Variable(tf.constant(0.0, shape=[out_dim]))
     # output layer, linear activation
     if i == n_layer - 1:
         cur_layer = tf.matmul(cur_layer, weight) + bias
