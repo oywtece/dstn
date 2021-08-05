@@ -18,7 +18,8 @@ ACM Digital Library: https://dl.acm.org/citation.cfm?doid=3292500.3330655
   author={Ouyang, Wentao and Zhang, Xiuwu and Li, Li and Zou, Heng and Xing, Xin and Liu, Zhaojie and Du, Yanlong},
   booktitle={KDD},
   pages={2078--2086},
-  year={2019}
+  year={2019},
+  organization={ACM}
 }
 ```
 
