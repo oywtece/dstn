@@ -23,6 +23,16 @@ bias, ad_id, position, ip_id, user_id, is_user_logged_on, search_query_keyword, 
 * The 2 multi-hot fts are:
 search_params, ad_params
 
+## Alternative data formats
+You can define your own data formats. For example, \
+\<target label\>\<target one-hot fts\>\<target mul-hot fts\> \
+\<ctxt1 one-hot fts, ctxt1 multi-hot fts\> \
+\<ctxt2 one-hot fts, ctxt2 multi-hot fts\> \
+... \
+\<ctxt5 one-hot fts, ctxt5 multi-hot fts\> ...
+
+After that, you only need to revise the "data_partition" function in the script.
+
 ## Spatial and temporal information
 * Spatial information: Each line must contain search_id (or session_id) and ad_position
 * Temporal information: Each line must contain user_id and time_stamp
