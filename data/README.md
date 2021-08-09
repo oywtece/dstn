@@ -61,12 +61,13 @@ u1, 201906011202, 1, q \
 u1, 201906011203, 0, r \
 u2, 201906011201, 1, s \
 u2, 201906011202, 0, t \
-**with clicked ads (max 2) and unclicked ads (max 2) ** \
+**with clicked ads (max 2) and unclicked ads (max 2)** \
 u1, 201906011201, 0, p, 0, 0, 0, 0 \
 u1, 201906011202, 1, q, 0, 0, p, 0 \
 u1, 201906011203, 0, r, q, 0, p, 0 \
 u2, 201906011201, 1, s, 0, 0, 0, 0 \
-u2, 201906011202, 0, t, s, 0, 0, 0 \
+u2, 201906011202, 0, t, s, 0, 0, 0
 
 * **Afterwards, remove the two prefixes user_id & time_stamp**
-You may need to use time_stamp for data splitting
+
+You may need to use time_stamp for data splitting as well.
