@@ -56,7 +56,7 @@ After that, you only need to revise the "data_partition" function in the script.
 002, 1, 0, d, 0, 0 \
 002, 2, 0, a, d, 0
 
-* **Afterwards, remove the two prefixes search_id & ad_position**
+* **Afterwards, remove (or do not print out) the two prefixes search_id & ad_position**
 
 ### For temporal information: two prefixes should be added to each line: user_id, time_stamp
 * First sort data by user_id, then by time_stamp [e.g., you can use Hadoop]
@@ -78,6 +78,6 @@ u1, 201906011203, 0, r, q, 0, p, 0 \
 u2, 201906011201, 1, s, 0, 0, 0, 0 \
 u2, 201906011202, 0, t, s, 0, 0, 0
 
-* **Afterwards, remove the two prefixes user_id & time_stamp**
+* **Afterwards, remove (or do not print out) the two prefixes user_id & time_stamp**
 
 You may need to use time_stamp for data splitting as well.
