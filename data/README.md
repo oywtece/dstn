@@ -62,6 +62,7 @@ After that, you only need to revise the "data_partition" function in the script.
 * First sort data by user_id, then by time_stamp [e.g., you can use Hadoop]
 * Then for each target ad, the ads with the same user_id, but smaller time_stamp and label=1 are user clicked ads
 * The ads with the same user_id, but smaller time_stamp and label=0 are user unclicked ads
+* Note: contextual ads will not become clicked / unclicked ads because contextual ads and the target ad have the same search_id and thus the same (not smaller) search time_stamp
 
 * Example: \
 **ori data** \
