@@ -82,3 +82,12 @@ u2, 201906011202, 0, t, s, 0, 0, 0
 * **Afterwards, remove (or do not print out) the two prefixes user_id & time_stamp**
 
 You may need to use time_stamp for data splitting as well.
+
+## Data Processing Pipeline
+ori_data -> \
+[search_id, ad_position,] ori_data -> \
+[search_id, ad_position,] ori_data, contextual ads -> \
+ori_data, contextual ads -> \
+[user_id, time_stamp,] ori_data, contextual ads -> \
+[user_id, time_stamp,] ori_data, contextual ads, clicked ads, unclicked ads -> \
+ori_data, contextual ads, clicked ads, unclicked ads
